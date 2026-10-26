@@ -1,0 +1,14 @@
+name: SovereignSMP
+version: '1.6.0'
+main: com.sovereignsmp.SovereignSMPPlugin
+api-version: '1.21.11'
+description: Unique Sovereign weapons, Echo Scythe, weapon-first config GUI, Echo speed and footsteps, gravity aura and custom 16x16 ability sprites
+author: SovereignSMP
+commands:
+  sovereign:
+    description: Sovereign artifacts, claiming, and administration
+    usage: /sovereign help
+permissions:
+  sovereign.admin:
+    description: Mint or recover a unique Sovereign artifact, edit config
+    default: op
